@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ConWeb &#126; Educating minds, Empowering success</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Images/without_slogan_WT.PNG" type="image/x-icon">
+        <link rel="stylesheet" href="CSS/style_total1.css" type="text/css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>
+    </head>
+    <body>
+        <div id="header">
+           <div class="same_line">
+               <img src="Images/without_slogan_WT.PNG" alt="logo" align="center" >
+           </div>
+           <div class="same_line">
+               <h1>ConWeb </h1>
+               <p>Educating minds, Empowering success</p>
+           </div> 
+        </div>     
+        
+        <div id="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="html/about.html" target="_self">About</a>
+            <a href="mailto:developers.info@conweb.com?Subject=Hello%20I%20Would%20Like%20to%20inquire%20on%20" target="_top">Contact</a>
+            <a href="#" class="right" onclick="document.getElementById('id02').style.display='block'">Signup</a>
+            <div id="id02" class="modal">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content animate" action="/action_page.php">
+                    <div class="container">
+                        <div class="imgcontainer">
+                            <img src="Images/with_slogan_WT.PNG" alt="">
+                        </div>
+                        <p>Please fill in this form to create an account.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" id="rem"> Remember me
+                        </label>
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <a href="#" class="right" onclick="document.getElementById('id01').style.display='block'">Login</a>
+            <div id="id01" class="modal">
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="Images/with_slogan_WT.PNG" alt="">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <div class="container" >
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="height_over">
+            <div class="row">
+                <div class="column leftcol" id="leftmix">
+                    <div id="sidemenu">
+                        <h2>Menu</h2>
+                        <a href="html/announcement.html">Tutorials and Workshops</a>
+                        <a href="#">Prolific Speakers</a>
+                        <a href="#" class="accordion">Guidelines</a>
+                        <div class="panel">
+                            <a href="#">Registration</a>
+                            <a href="#">Paper Submission</a>
+                        </div>
+                        <a href="html/deadlines.html">Deadlines</a>
+                        <a href="html/org_comm.html">Organizing Committee</a>
+                        <a href="html/sponsors.html">Sponsor Details</a>
+                        <a href="#" class="accordion">Awards Distribution</a>
+                        <div class="panel">
+                            <a href="downloads/Winners%20for%20Best%20Presentations.pdf" target="_blank">Best presentation</a>
+                            <a href="downloads/Winners%20for%20Best%20Paper%20Submissions.pdf" target="_blank">Best Paper</a>
+                            <a href="downloads/Winners%20for%20Best%20Innovative%20Ideas.pdf" target="_blank">Best Innovative idea</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column rightcol" id="rightmix">
+                    <h2>Recent Conferences</h2>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="Images/conf_1.jpg">
+                            <div class="text">Conference on game show</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="Images/conf_2.jpg">
+                            <div class="text">ASM conference Dubai 2019</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="Images/conf_3.jpg">
+                            <div class="text">Conference on Women's contribution to World</div>
+                        </div>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div class="caption">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </div>
+                <div class="column extr_rig" id="leftmix">
+                    <h2>Important News</h2>
+                    <marquee class="marq" onMouseOver="stop()" onMouseOut="start()" scrollamount="2" scrolldelay="1" direction="up" align="center">
+                        <a href="downloads/Winners%20for%20Best%20Paper%20Submissions.pdf" target="_blank">List of winner of best paper</a>
+                        <a href="downloads/Winners%20for%20Best%20Presentations.pdf" target="_blank">List of winner of best Presentation</a>
+                        <a href="#">List of Next conference On Global Warming</a>
+                        <a href="#">Possible Venues for Next Conferences</a>
+                        <a href="#">Deadline of Presentation Submission for Global summit on Aforestation is 15<sup>th</sup>April</a>
+                        <a href="#">Deadline of Paper Submission for Global summit on Aforestation is 22<sup>nd</sup>April</a>
+                    </marquee>
+                </div>
+            </div>
+            <div class="sponsors">
+                <hr>
+                <h2>Sponsors and Colloborators</h2>
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.56.43%20PM.jpeg" alt="apple" title="apple">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.56.43%20PM%20(1).jpeg" alt="amazon" title="amazon">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.56.44%20PM%20(2).jpeg" alt="tensorflow" title="tensorflow">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.56.44%20PM%20(1).jpeg" alt="google" title="google">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.56.44%20PM.jpeg" alt="intel" title="intel">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.57.36%20PM%20(1).jpeg" alt="the boring company" title="the boring company">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.57.36%20PM.jpeg" alt="Tesla" title="Tesla">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%207.58.20%20PM.jpeg" alt="nvidia" title="nvidia">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.31.03%20PM.jpeg" alt="TeamTrees" title="TeamTrees">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.32.03%20PM.jpeg" alt="The ocean cleanup" title="The ocean cleanup">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.33.22%20PM.jpeg" alt="WHO" title="who">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.33.55%20PM.jpeg" alt="UN" title="UN">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.35.05%20PM.jpeg" alt="Red cross" title="Red Cross">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.36.22%20PM.jpeg" alt="Goldman sachs" title="Goldman sachs">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.54.44%20PM.jpeg" alt="climate change" title="climate change">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%208.57.49%20PM.jpeg" alt="linkedin" title="linkedin">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%209.01.44%20PM.jpeg" alt="maps" title="maps">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%209.06.04%20PM.jpeg" alt="UBC" title="UBC">
+                <img src="sponsors/WhatsApp%20Image%202020-03-17%20at%209.18.15%20PM.jpeg" alt="blueprism" title="blueprism">
+            </div>
+        </div>
+        <script src="Javascript/scrollup.js"></script>
+    </body>
+</html>
