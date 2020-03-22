@@ -581,3 +581,6 @@ table{
 .venuelink  {
   color: black;
 }
+#nodecor {
+    text-decoration: none;
+}
