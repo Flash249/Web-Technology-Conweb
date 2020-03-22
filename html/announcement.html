@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorials and Workshops</title>
+        <link rel="icon" href="/Images/without_slogan_WT.PNG" type="image/x-icon">
+        <link rel="stylesheet" href="/CSS/style_total1.css" type="text/css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>    
+    </head>
+    <body>
+        <div id="header">
+            <div class="same_line">
+                <img src="/Images/without_slogan_WT.PNG" alt="logo" align="center" >
+            </div>
+            <div class="same_line">
+                <h1>ConWeb </h1>
+                <p>Educating minds, Empowering success</p>
+            </div> 
+        </div>      
+        
+        <div id="navbar">
+            <a href="/test2.html">Home</a>
+            <a href="/html/about.html" target="_self">About</a>
+            <a href="mailto:developers.info@conweb.com?Subject=Hello%20I%20Would%20Like%20to%20inquire%20on%20" target="_top">Contact</a>
+            <a href="#" class="right" onclick="document.getElementById('id02').style.display='block'">Signup</a>
+            <div id="id02" class="modal">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content animate" action="/action_page.php">
+                    <div class="container">
+                        <div class="imgcontainer">
+                            <img src="/Images/with_slogan_WT.PNG" alt="">
+                        </div>
+                        <p>Please fill in this form to create an account.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" id="rem"> Remember me
+                        </label>
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <a href="#" class="right" onclick="document.getElementById('id01').style.display='block'">Login</a>
+            <div id="id01" class="modal">
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="/Images/with_slogan_WT.PNG" alt="">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <div class="container" >
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="height_over">
+            <div class="row">
+                <div class="column leftcol" id="leftmix">
+                    <div id="sidemenu">
+                        <h2>Menu</h2>
+                        <a href="/html/announcement.html">Tutorials and Workshops</a>
+                        <a href="/html/prolific_sp.html">Prolific Speakers</a>
+                        <a href="#" class="accordion">Guidelines</a>
+                        <div class="panel">
+                            <a href="#">Registration</a>
+                            <a href="#">Paper Submission</a>
+                        </div>
+                        <a href="/html/deadlines.html">Deadlines</a>
+                        <a href="/html/org_comm.html">Organizing Committee</a>
+                        <a href="/html/sponsors.html">Sponsor Details</a>
+                        <a href="#" class="accordion">Awards Distribution</a>
+                        <div class="panel">
+                            <a href="/downloads/Winners%20for%20Best%20Presentations.pdf" target="_blank">Best presentation</a>
+                            <a href="/downloads/Winners%20for%20Best%20Paper%20Submissions.pdf" target="_blank">Best Paper</a>
+                            <a href="/downloads/Winners%20for%20Best%20Innovative%20Ideas.pdf" target="_blank">Best Innovative idea</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column rightcol" id="rightfor">            
+                    <h1>Upcoming Tutorials</h1>
+                    <button class="collapsible active">Introduction to Tensorflow 2.1.0</button>
+                    <div class="content" id="padleft">
+                        <p><h3>Whereabouts</h3>
+                        <p>Date and Time: 2<sup>nd</sup> April 2020 (4:30 PM IST)</p>
+                        <p>Venue: Online</p>
+                        <p>Instructor: <i><b>Francois Chollet</b> (Founder of <a href="https://keras.io/" target="_blank">Keras</a>)</i></p>
+                        <h3>Prerequisites</h3>
+                        <ul>
+                            <li>Python 3</li>
+                            <li>College Level Maths</li>
+                            <li>Own laptop/PC</li>    
+                        </ul>
+                        <p><b>What you will learn ?</b></p>
+                        <p>You will get overview of Machine Learning and get hands on experience with help of Tensorflow</p>
+                    </div>
+
+                    <button class="collapsible">Cryptocurrency</button>
+                    <div class="content" id="padleft">
+                           <p>
+                            <h3>Whereabouts</h3>
+                            <p>Date and Time: 12<sup>th</sup> April 2020 (5:30 PM IST)</p>
+                            <p>Venue: Online</p>
+                            <p>Instructor: <i><b>Vitaly Dmitriyevich</b> (Founder Of <a href="https://ethereum.org/" target="_blank">Ethereum</a>)</i></p>
+                            <h3>Prerequisites</h3>
+                            <ul>
+                                <li>12th Level Maths</li>    
+                            </ul>
+                            <h3>What you will learn ?</h3>
+                            <p>You will get overview of decentralized systems. We'll also introduce you to implimantation of bitcoin.</p>
+                    </div>
+
+                    <h1>Upcoming Workshops</h1>
+                    <button class="collapsible active">Applied Machine Learning to Robotics</button>
+                    <div class="content" id="padleft">
+                        <p>
+                            <h3>Whereabouts</h3>
+                            <p>Date and Time: 1<sup>st</sup> April 2020 (10:30 AM IST)</p>
+                            <p>Venue: AIIH, AIIE Ahmedabad</p>
+                            <p>Instructor: <i><b>Andrew Ng</b> (Co-Founder of <a href="https://www.coursera.org/" target="_blank">Coursea</a>, He will be joining us via video call)</i></p> 
+                            <h3>Prerequisites</h3>
+                            <ul>
+                                <li>Python 3</li>
+                                <li>Tensorflow</li>
+                                <li>C Language</li>    
+                            </ul>
+                            <h3>What you will learn ?</h3>
+                            <p>We will show you how to apply machine learning to real world problems. We will give you hands on experience with ardiuno.</p>
+                    </div>
+
+                    <button class="collapsible">Importance of Applied biology in pollution</button>
+                    <div class="content" id="padleft">
+                        <p>
+                            <h3>Whereabouts</h3>
+                            <p>Date and Time: 16<sup>th</sup> April 2020 (03:30 PM IST)</p>
+                            <p>Venue: AMC hall, Ahmedabad</p>
+                            <p>Instructor: <b><i>Tivam Uoni</i></b></p>
+                            <h3>Prerequisites</h3>
+                            <ul>
+                                <li>class 12th Biology</li>
+                                <li>Bring your own Appron</li>    
+                            </ul>
+                            <h3>What you will learn ?</h3>
+                            <p>As the pollution is harming humanity, we still have time if we act quickly. We can apply biology to speed up the process of degradation. You will get hands-on experience of the same.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/Javascript/scrollup.js"></script>
+    </body>
+</html>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active_c");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+</script>

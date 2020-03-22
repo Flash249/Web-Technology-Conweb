@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deadlines</title>
+        <link rel="icon" href="/Images/without_slogan_WT.PNG" type="image/x-icon">
+        <link rel="stylesheet" href="/CSS/style_total1.css" type="text/css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto'>    
+    </head>
+    <body>
+        <div id="header">
+            <div class="same_line">
+                <img src="/Images/without_slogan_WT.PNG" alt="logo" align="center" >
+            </div>
+            <div class="same_line">
+                <h1>ConWeb </h1>
+                <p>Educating minds, Empowering success</p>
+            </div> 
+        </div>      
+        
+        <div id="navbar">
+            <a href="/test2.html">Home</a>
+            <a href="/html/about.html" target="_self">About</a>
+            <a href="mailto:developers.info@conweb.com?Subject=Hello%20I%20Would%20Like%20to%20inquire%20on%20" target="_top">Contact</a>
+            <a href="#" class="right" onclick="document.getElementById('id02').style.display='block'">Signup</a>
+            <div id="id02" class="modal">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content animate" action="/action_page.php">
+                    <div class="container">
+                        <div class="imgcontainer">
+                            <img src="/Images/with_slogan_WT.PNG" alt="">
+                        </div>
+                        <p>Please fill in this form to create an account.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" id="rem"> Remember me
+                        </label>
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <a href="#" class="right" onclick="document.getElementById('id01').style.display='block'">Login</a>
+            <div id="id01" class="modal">
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="/Images/with_slogan_WT.PNG" alt="">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <div class="container" >
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="height_over">
+            <div class="row">
+                <div class="column leftcol" id="leftmix">
+                    <div id="sidemenu">
+                        <h2>Menu</h2>
+                        <a href="/html/announcement.html">Tutorials and Workshops</a>
+                        <a href="/html/prolific_sp.html">Prolific Speakers</a>
+                        <a href="#" class="accordion">Guidelines</a>
+                        <div class="panel">
+                            <a href="#">Registration</a>
+                            <a href="#">Paper Submission</a>
+                        </div>
+                        <a href="/html/deadlines.html">Deadlines</a>
+                        <a href="/html/org_comm.html">Organizing Committee</a>
+                        <a href="/html/sponsors.html">Sponsor Details</a>
+                        <a href="#" class="accordion">Awards Distribution</a>
+                        <div class="panel">
+                            <a href="/downloads/Winners%20for%20Best%20Presentations.pdf" target="_blank">Best presentation</a>
+                            <a href="/downloads/Winners%20for%20Best%20Paper%20Submissions.pdf" target="_blank">Best Paper</a>
+                            <a href="/downloads/Winners%20for%20Best%20Innovative%20Ideas.pdf" target="_blank">Best Innovative idea</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column rightcol" id="rightfor">            
+                    <h1>Important Deadlines</h1>
+                    <h4>Below given are the important deadlines for the submission of research papers and presentations by interested users in respective categories.</h4>
+                    <ol>
+                        <li>
+                            <h3>Paper Submission</h3>
+                            <ul style="list-style-type: square">
+                                <li>Last date for submission on <i>77th International Academic Conference on Science, Ecological Agriculture and Forestry (IACSEAF) -Krabi, Thailand is <b><u>12<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li class="highlight">Last date for submission on <i>77th International conference on Nursing Ethics and Medical Ethics (ICNEME)  - Krabi, Thailand is <b><u>10<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>International Conference on Automation and Electrical Engineering (ICAEE) - Mumbai, Maharashtra, India is <b><u>14<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>International Conference on Computer Science, Machine Learning and Big Data (ICCSMLBD) - Mumbai, Maharashtra, India is <b><u>14<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>81st International Conference on Electronics, Artificial Intelligence &#38; Robotics (ICEAIR) - Bratislava, Slovakia is <b><u>20<sup>th</sup>March 2020</u></b></i></li><br>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Presentation Submission</h3>
+                            <ul style="list-style-type: square">
+                                <li class="highlight">Last date for submission on <i>83rd International Conference on Humanities, Social Science and Business Management (ICHSSBM) - Yogyakarta, Indonesia is <b><u>2<sup>nd</sup>March 2020</u></b></i></li><br>
+                                <li class="highlight">Last date for submission on <i>82nd International Conference on Automobile &#38; Mechanical Engineering (ICAME) - Abu Dhabi, United Arab Emirates <b><u>1<sup>st</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>84th International Academic Conference on Science, Ecological Agriculture and Forestry (IACSEAF) - Surabaya, Indonesia <b><u>20<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>86th International Conference on Automation and Electrical Engineering (ICAEE)- Male, Maldives <b><u>24<sup>th</sup>March 2020</u></b></i></li><br>
+                                <li>Last date for submission on <i>87th International Conference on Electronics, Artificial Intelligence &#38; Robotics (ICEAIR) - Kuala Lumpur, Malaysia <b><u>28<sup>th</sup>March 2020</u></b></i></li><br>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <script src="/Javascript/scrollup.js"></script>
+    </body>
+</html>
